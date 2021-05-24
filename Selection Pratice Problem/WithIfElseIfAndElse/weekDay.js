@@ -1,3 +1,5 @@
+// Read a Number and Display the week day (Sunday, Monday,…)
+
 const prompt = require('prompt-sync')();
 
 var value = prompt("Enter the number 1-7 to print the week day:- ")

@@ -1,3 +1,5 @@
+// Read a single digit number and write the number in word
+
 const prompt = require('prompt-sync')();
 
 var value = prompt("Enter the single digit number:- ")

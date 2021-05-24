@@ -1,3 +1,5 @@
+// Read a Number 1, 10, 100, 1000, etc and display unit, ten, hundred,…
+
 const prompt = require('prompt-sync')();
 
 var value = prompt("Enter the number:- ")
