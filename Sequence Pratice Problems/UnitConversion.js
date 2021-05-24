@@ -15,3 +15,11 @@ let breadthInMeters = breadthInFeet * FEET_TO_METERS_CONVERSION_UNIT
 console.log("Plot Dimension in Feet:- " + lengthInFeet
     + " Feet X " + breadthInFeet + " Feet" + " Into Meters: " + "Plot Dimension in Meters:- " + lengthInMeters.toFixed(2)
     + " meters X " + breadthInMeters.toFixed(2) + " meters")
+
+// Calculate area of 25 such plots in acres
+const METER_SQUARE_TO_ACRE_CONVERSION_UNIT = 1 / 4046.86;
+
+let areaInMeterSquare = lengthInMeters * breadthInMeters
+let areaInAcres = areaInMeterSquare * METER_SQUARE_TO_ACRE_CONVERSION_UNIT
+console.log("Area of 25 plots in Acres : "
+    + (25 * areaInAcres).toFixed(2) + " acres")
